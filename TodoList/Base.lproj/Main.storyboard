@@ -31,7 +31,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="kZp-6q-Og7">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Wob-xu-JVU">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="Wob-xu-JVU">
                             <connections>
                                 <action selector="addName:" destination="BYZ-38-t0r" id="WBJ-sV-3j0"/>
                             </connections>
