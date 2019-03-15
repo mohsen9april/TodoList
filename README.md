@@ -1,2 +1,3 @@
 # TodoList
-Versin 01
+Simple TodoList with Delete option 
+Verson 01
