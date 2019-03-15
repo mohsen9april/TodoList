@@ -59,6 +59,20 @@ func tableView(_ tableView: UITableView,cellForRowAt indexPath: IndexPath) -> UI
     cell!.textLabel!.text = names[indexPath.row]
     return cell!
 }
+    
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)
+    {
+        if editingStyle == UITableViewCellEditingStyle.delete
+        {
+            names.remove(at: indexPath.row)
+            tableView.reloadData()
+        }
+    }
+
+    
+    
+    
 
     }
 
